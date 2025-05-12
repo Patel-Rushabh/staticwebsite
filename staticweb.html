@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SweetBites Cake Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff7f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #f78da7;
+      padding: 30px;
+      text-align: center;
+      color: white;
+    }
+
+    nav {
+      background-color: #ffe4e1;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #d6336c;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #d6336c;
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #f78da7;
+      text-align: center;
+      padding: 20px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SweetBites Cake Shop</h1>
+    <p>Delicious Cakes Baked with Love 🍰</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#cakes">Our Cakes</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to SweetBites!</h2>
+    <p>Whether it’s a birthday, anniversary, or just a craving, we have the perfect cake for you. Freshly baked daily with the finest ingredients.</p>
+  </section>
+
+  <section id="cakes">
+    <h2>Our Popular Cakes</h2>
+    <div class="gallery">
+      <img src="Desktop/cake1.jpg" alt="Chocolate Cake">
+      <img src="Desktop/cake2.jpg" alt="Strawberry Cake">
+      <img src="Desktop/cake3.png" alt="Vanilla Cake with Berries">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 456 Bakery Street, Sweet Town<br/>
+       📞 (987) 654-3210<br/>
+       ✉️ orders@sweetbites.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SweetBites Cake Shop. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
